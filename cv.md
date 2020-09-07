@@ -57,14 +57,14 @@ Frontend developer - Crux Web Agency (6 month)
 ## Education ## 
  
 * National University of Food Technologies 
-  Quality control, certification, standartization, Kyiv 2019 - Master degree
+  Quality control, certification, standartization, _Kyiv 2019_ - **Master degree**
 * SoftServe 
-  Basic of Frontend Devrloping, Lviv 2019
+  Basic of Frontend Devrloping, _Lviv 2019_
 * Lviv IT School
-  Basics of software testing, online 2019,
+  Basics of software testing, _online 2019_,
   [Certificate] (https://courses.prometheus.org.ua:18090/downloads/f7139f3125bd4a29b8142a812f6189f2/Certificate.pdf)
 * Kyiv Polytechnic
-  Basics of information security, online 2019,
+  Basics of information security, _online 2019_,
   [Cerificate] (https://courses.prometheus.org.ua:18090/downloads/46a3d8d81f4a4a0c92f890e05406916c/Certificate.pdf)
 
 ## English ## 
