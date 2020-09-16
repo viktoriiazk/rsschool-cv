@@ -1,60 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>CV Zakorchemna</title>
     <style>
+        body {
+            margin: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        span,
+        p,
+        a {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container_1024px {
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+
+        .block-wrapp-padd {
+            padding: 70px 0;
+        }
+
+        .about-me img {
+            max-width: 350px;
+            height: auto;
+        }
+
+        .bg-grey {
+            background-color: #505050;
+
+        }
 
 
+        .header__nav {
+            max-width: 400px;
+            margin: 0 0 0 auto;
+            padding: 20px 0;
+        }
+
+        .header__nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header__nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .about-me__inner {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header__title {
+            padding-bottom: 30px;
+        }
+
+        .about-me__description {
+            max-width: 490px;
+            width: 100%;
+            text-align: right;
+        }
+
+        .title {
+            font-size: 30px;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .text-color-white {
+            color: #fff;
+        }
+
+        .skills__item {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 100px;
+            padding: 0;
+            list-style: square;
+        }
+
+        .skills__item li {
+            list-style: square;
+        }
+
+        .education__list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            color: #fff;
+
+        }
+
+        .education__item {
+            max-width: 350px;
+            width: 100%;
+            padding: 20px 0;
+        }
+
+        .education__item h4 {
+            font-size: 18px;
+            padding: 5px 0;
+        }
+
+        .education__item span {
+            font-weight: bold;
+        }
+
+        .languages h4 {
+            font-size: 20px;
+            padding: 5px 0;
+            text-transform: uppercase;
+        }
+
+        .languages span {
+            font-weight: bold;
+        }
+
+        .experience a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-wrapp {
+            padding: 10px 0;
+        }
+
+        .footer-wrapp address {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-wrapp address a {
+            text-decoration: none;
+            color: #000;
+        }
     </style>
 </head>
+
 <body>
     <header>
-        <div class="container_1024px">
-            <nav class="header__nav"><ul>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Languages</a></li>
-                <li><a href="#">Experience</a></li>
-            </ul></nav>
-            <img src="" alt="">
-            <h1 class="header__title">Viktoriia Zakorchemna</h1>
-        </div>
-        
-    </header>
-    <main>
-        <div class="container_1024px">
-            <div class="skills">
-                <h2>Skills</h2>
-                <div>
+        <div class="bg-grey">
+            <div class="about-me container_1024px">
+                <nav class="header__nav">
                     <ul>
-                        <li>HTML 5</li>
-                        <li>CSS</li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                        <li><a href="#experience">Experience</a></li>
                     </ul>
+                </nav>
+                <div class="about-me__inner block-wrapp-padd">
+
+                    <img src="VZakorchemna.jpg" alt="Viktoriia Zakorchemna picture">
+
+
+                    <div class="about-me__description">
+                        <h1 class="header__title text-color-white">Viktoriia Zakorchemna</h1>
+                        <p class="text-color-white">The main goal to improve my JavaScript skills and to get the the
+                            dream job till the end of the year.
+                        </p>
+                    </div>
                 </div>
             </div>
-           
-<div class="education">
-    <h2>Education</h2>
-</div>
-<div class="languages">
-    <h2>Languages</h2>
-</div>
-<div class="experience">
-    <h2>Experience</h2>
-</div>
+        </div>
+
+    </header>
+    <main>
+
+        <div id="skills" class="skills container_1024px block-wrapp-padd">
+            <h2 class="title">Skills</h2>
+            <div class="skills__list">
+                <ul class="skills__item">
+                    <li>HTML 5</li>
+                    <li>CSS
+                        <ul>
+                            <li>SCSS</li>
+                            <li>SASS</li>
+                            <li>Materialize</li>
+                            <li>Flex</li>
+                        </ul>
+                    </li>
+                    <li>JavaScript
+                        <ul>
+                            <li>JQuery</li>
+                            <li>Wow.js</li>
+                            <li>Vue.js (basic)</li>
+                        </ul>
+                    </li>
+                    <li>Wordpess</li>
+                    <li>Git</li>
+                    <li>Scrum Methodology</li>
+                    <li>Grafic Redactors
+                        <ul>
+                            <li>Figma</li>
+                            <li>Adobe XD</li>
+                            <li>Wondershare Filmora</li>
+                        </ul>
+                    </li>
+                    <li>Advertisement
+                        <ul>
+                            <li>Google Ads</li>
+                            <li>Facebook Ads</li>
+                        </ul>
+                    </li>
+                    <li>Google console</li>
+                    <li>SMM/SEO</li>
+                </ul>
             </div>
+        </div>
+        <div class="bg-grey">
+            <div id="education" class="education container_1024px block-wrapp-padd">
+                <h2 class="title text-color-white">Education</h2>
+                <div class="education__list">
+                    <div class="education__item">
+                        <h4>National University of Food Technologies</h4>
+                        <p>Quality control, certification, standartization</p>
+                        <p>Kyiv 2019 - <span>Master degree</span></p>
+                    </div>
+                    <div class="education__item">
+                        <h4> SoftServe </h4>
+                        <p>Basic of Frontend Devrloping</p>
+                        <p>Lviv 2019</p>
+                    </div>
+                    <div class="education__item">
+                        <h4>Lviv IT School</h4>
+                        <p>Basics of software testing</p>
+                        <p>online 2019</p>
+                    </div>
+                    <div class="education__item">
+                        <h4> Kyiv Polytechnic</h4>
+                        <p> Basics of information security</p>
+                        <p> online 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="languages" class="languages container_1024px block-wrapp-padd">
+            <h2 class="title">Languages</h2>
+            <h4>English</h4>
+            <p>Course - Hello Space Lviv - Upper Intermediate (B2), Aug 2020</p>
+            <p>I worked in american company for 9 month, chatting with american colleagues every day <span>(Jan-Sep
+                    2020)</span></p>
+
+        </div>
+        <div class="bg-grey">
+            <div id="experience" class="experience container_1024px block-wrapp-padd">
+                <h2 class="title text-color-white">Experience</h2>
+                <p class="text-color-white">Frontend developer - Crux Web Agency, Aug 2019 - Jan 2020 (6 month)</p>
+                <ol class="text-color-white">
+                    <li> <a href="http://chatbots.cruks.pp.ua/">Chatbots</a></li>
+                    <li><a href="https://www.tarya.co.il/">Tarya</a></li>
+                    <li> <a href="http://ucspd.cruks.pp.ua/">УЦСПД</a></li>
+                </ol>
+            </div>
+        </div>
     </main>
     <footer>
-        <div class="container_1024px">
+        <div class="footer-wrapp container_1024px">
             <address>
                 <a href="mailto:viktoriia.zakorchemna@gmail.com">viktoriia.zakorchemna@gmail.com</a>
                 <a href="tel:+380938163824">+380938163824</a>
-     
+
             </address>
         </div>
     </footer>
 </body>
+
 </html>
