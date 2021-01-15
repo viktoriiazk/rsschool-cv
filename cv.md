@@ -8,7 +8,7 @@
 - Skype:
   - viktoriia.zakorchemna_1
 - LinkedIn:
-  - [LinkedIN] (https://www.linkedin.com/in/viktoriia-zakorchemna/)
+  - [LinkedIn](https://www.linkedin.com/in/viktoriia-zakorchemna/)
 
 
 ## About me ##
