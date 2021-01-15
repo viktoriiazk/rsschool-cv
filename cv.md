@@ -13,7 +13,7 @@
 
 ## Summary ##
 
-The main goal to improve my JavaScript skills and to get the the dream job till the end of the year.
+The main goal to improve my JavaScript skills.
 
 
 ## Skills ##
@@ -50,9 +50,7 @@ alert (greeting + userName);
 
 ## Experience ## 
 Frontend developer - Crux Web Agency (6 month)
-1. [Chatbots] (http://chatbots.cruks.pp.ua/)
-2. [Tarya] (https://www.tarya.co.il/)
-3. [УЦСПД] (http://ucspd.cruks.pp.ua/)
+
 
 ## Education ## 
  
@@ -68,6 +66,5 @@ Frontend developer - Crux Web Agency (6 month)
   [Cerificate] (https://courses.prometheus.org.ua:18090/downloads/46a3d8d81f4a4a0c92f890e05406916c/Certificate.pdf)
 
 ## English ## 
-
-I worked in american company for 9 month, chatting with american colleagues every day (Jan-Sep 2020)
+I have experience in an American company for 9 months, daily meetings in English with colleagues from America (Jan-Sep 2020)
 Course - Hello Space Lviv - Upper Intermediate (B2), Aug 2020
